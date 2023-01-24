@@ -15,7 +15,7 @@ class MHCMON:
         os.system('dotenv run')
 
     def get_extension(self):
-        return self.file_name[self.file_name.index('.'):]
+        return self.file_name[self.file_name.index('.'):] if '.' in self.file_name else '.sh'
 
     def init(self,initilized):
         ext = self.get_extension()

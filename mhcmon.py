@@ -5,8 +5,8 @@ from app import MHCMON
 cwd = os.getcwd()
 parser = argparse.ArgumentParser(
     prog="MHCMON",
-    description="auto run bash and c# scripts",
-    epilog='Ato Codes || MHCDA',
+    description="[ MHCMON ] DESCRIPTION : auto run bash and c# scripts",
+    epilog="Ato Codes || MHCDA",
     add_help=True
 )
 
@@ -15,7 +15,7 @@ parser.add_argument(
     action='store',
     nargs=1,
     default=None,
-    help='put file name here'
+    help="file name or path",
 )
 
 args = parser.parse_args()

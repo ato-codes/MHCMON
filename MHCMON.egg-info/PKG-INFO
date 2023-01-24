@@ -1,12 +1,19 @@
 Metadata-Version: 2.1
 Name: MHCMON
 Version: 0.0.1
-Summary: Simple Auto C# And Bash Script Runner On Save
+Summary: auto run bash and c# scripts on save
 Home-page: UNKNOWN
 Author: ato-codes MHCDA
 Author-email: thecmboy930@gmail.com
 License: UNKNOWN
+Keywords: bash,c#,python
 Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Debian :: Ubuntu
+Classifier: Operating System : Microsoft :: Windows
 
-UNKNOWN
+A pyton cli app which auto runs your bash script or c# script.
 
