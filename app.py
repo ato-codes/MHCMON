@@ -34,7 +34,7 @@ class MHCMON:
         ext = self.get_extension()
         tmp = ''
         while True:
-            sleep(1)
+            sleep(.3)
             with open(self.file_path) as f:
                 content = f.read()
                 if content != tmp:
