@@ -12,7 +12,7 @@ class MHCMON:
         os.system(f'bash {self.file_path}')
 
     def cSharp(self):
-        os.system('dotenv run')
+        os.system('dotnet run')
 
     def get_extension(self):
         return self.file_name[self.file_name.index('.'):] if '.' in self.file_name else '.sh'
